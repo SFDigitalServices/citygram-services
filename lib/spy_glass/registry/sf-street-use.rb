@@ -51,7 +51,10 @@ SpyGlass::Registry << SpyGlass::Client::Socrata.new(opts) do |collection|
       # will iterate on this to come up with normalized properties for the custom front-end
       # https://github.com/SFDigitalServices/neighborhood-noticing
       'properties' => {
+        # required by Citygram
         'id' => item['permit_number'],
+        'title' => title,
+
         'type' => permit_types[item['permit_type']],
         'originator' => item['agent'],
         'originator_phone' => item['agentphone'],
