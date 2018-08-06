@@ -56,6 +56,7 @@ SpyGlass::Registry << SpyGlass::Client::Socrata.new(opts) do |collection|
         'title' => title,
 
         'type' => permit_types[item['permit_type']],
+        'description' => item['permit_purpose'],
         'originator' => item['agent'],
         'originator_phone' => item['agentphone'],
         'status' => item['status'],
