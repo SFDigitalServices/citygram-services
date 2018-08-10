@@ -61,8 +61,8 @@ SpyGlass::Registry << SpyGlass::Client::Socrata.new(opts) do |collection|
         'originator_phone' => item['agentphone'],
         'status' => item['status'],
         'location' => location,
-        'start' => item['start_date'],
-        'end' => item['end_date'],
+        'start' => item['permit_start_date'],
+        'end' => item['permit_end_date'],
       },
     }
   end
