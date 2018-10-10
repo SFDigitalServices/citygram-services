@@ -39,7 +39,7 @@ permit_type_metadata = {
     "description" => "Allows a nonprofit or cultural organization to advertise a City-supported public event on utility poles.",
     "link" => "https://www.sfpublicworks.org/services/permits/banners",
   },
-  "Bicycle" => {
+  "Boring" => {
     "description" => "Allows a licensed contractor to bore or install a monitoring well in a street or sidewalk",
     "link" => "https://www.sfpublicworks.org/services/permits/boring-and-monitoring-well",
   },
