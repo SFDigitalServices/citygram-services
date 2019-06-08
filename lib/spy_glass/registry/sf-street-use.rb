@@ -218,8 +218,8 @@ SpyGlass::Registry << SpyGlass::Client::Socrata.new(opts) do |collection|
 
           'subtype' => {
             'name' => permit_types[permit_type],
-            'description' => permit_type_metadata[permit_type]["description"],
-            'link' => permit_type_metadata[permit_type]["link"],
+            'description' => permit_type_metadata[permit_type]&.description,
+            'link' => permit_type_metadata[permit_type]&.link,
           }
         },
 
