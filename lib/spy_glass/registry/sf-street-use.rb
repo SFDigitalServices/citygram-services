@@ -39,17 +39,21 @@ permit_type_metadata = {
     "description" => "Allows a nonprofit or cultural organization to advertise a City-supported public event on utility poles.",
     "link" => "https://www.sfpublicworks.org/services/permits/banners",
   },
+  "Bicycle" => {
+    "description" => "Bicycle Rack"
+    "link" => "null",
+  },
   "Boring" => {
     "description" => "Allows a licensed contractor to bore or install a monitoring well in a street or sidewalk",
     "link" => "https://www.sfpublicworks.org/services/permits/boring-and-monitoring-well",
   },
-  "TableChair" => {
-    "description" => "Allows restaurants to provide outdoor seating on the sidewalk.",
-    "link" => "https://www.sfpublicworks.org/services/permits/cafe-tables-and-chairs",
-  },
   "CommemPl" => {
     "description" => "Allows a commerative plaque to be placed in a public street or sidewalk.",
     "link" => "null",
+  },
+  "conformity" => {
+    "description" => "null",
+    "link" => "https://www.sfpublicworks.org/services/permits/inspection-conformity",
   },
   "DebrisBox" => {
     "description" => "Allows a construction waste dumpster to be placed in the street, following traffic and parking regulations.",
@@ -59,17 +63,25 @@ permit_type_metadata = {
     "description" => "Allows retailers to display merchadise on the sidewalk in front of their business.",
     "link" => "https://www.sfpublicworks.org/services/permits/display-merchandise",
   },
-  "FreeSample" => {
-    "description" => "Allows businesses to give away promotional samples on public sidewalks or streets. This permit does not allow furniture to be placed in the street.",
-    "link" => "https://www.sfpublicworks.org/services/permits/free-sample-merchandise",
+  "Emergency" => {
+    "description" => "Emergency Confirmation Number"
+    "link" => "null",
+  },
+  "Excavation" => {
+    "description" => "Allows digging into public streets or sidewalks.",
+    "link" => "https://www.sfpublicworks.org/services/permits/utility-excavation",
   },
   "ExcStreet" => {
     "description" => "Allows a licensed contractor to excavate and restore pavement when replacing utilities.",
     "link" => "https://www.sfpublicworks.org/services/permits/general-excavation",
   },
-  "conformity" => {
-    "description" => "null",
-    "link" => "https://www.sfpublicworks.org/services/permits/inspection-conformity",
+  "FoodFac" => {
+    "description" => "Allows a food truck or cart to operate on a public street or sidewalk.",
+    "link" => "https://www.sfpublicworks.org/services/permits/mobile-food-facilities",
+  },
+  "FreeSample" => {
+    "description" => "Allows businesses to give away promotional samples on public sidewalks or streets. This permit does not allow furniture to be placed in the street.",
+    "link" => "https://www.sfpublicworks.org/services/permits/free-sample-merchandise",
   },
   "MajorEnc" => {
     "description" => "Special allowance by the Board of Supervisors to take over a sidewalk or street.",
@@ -79,17 +91,17 @@ permit_type_metadata = {
     "description" => "Allows for public sidewalk ameneties, such as fences, walls, steps, planters, or benches.",
     "link" => "https://www.sfpublicworks.org/services/permits/minor-encroachment-permit",
   },
-  "FoodFac" => {
-    "description" => "Allows a food truck or cart to operate on a public street or sidewalk.",
-    "link" => "https://www.sfpublicworks.org/services/permits/mobile-food-facilities",
-  },
-  "StorCont" => {
-    "description" => "Allows a storage container to be temporarilty placed in the street or sidewalk. Container should not occupy more than the street's parking lane, nor completely block pedestrian sidewalk traffic.",
-    "link" => "https://www.sfpublicworks.org/services/permits/storage-container",
+  "MiscServ" => {
+    "description" => "Miscellaneous Services"
+    "link" => "null",
   },
   "NightNoise" => {
     "description" => "Allows construction between 8pm and 7am. After 10pm, only hand tools are allowed.",
     "link" => "https://www.sfpublicworks.org/services/permits/night-noise",
+  },
+  "Other" => {
+    "description" => "Test Other"
+    "link" => "null",
   },
   "OverwideDr" => {
     "description" => "Allows the construction of a driveway wider than 30 feet.",
@@ -99,13 +111,21 @@ permit_type_metadata = {
     "description" => "Allows the installation of sidewalk landscaping.",
     "link" => "https://www.sfpublicworks.org/services/permits/parklets",
   },
-  "SideSewer" => {
-    "description" => "Allows a licensed contractor to install a sewer running through a sidewalk or street.",
-    "link" => "https://www.sfpublicworks.org/services/permits/side-sewer",
-  },
   "PipeBarr" => {
     "description" => "Allows the installation of vertical posts separating a public street from sidewalk.",
     "link" => "https://www.sfbetterstreets.org/find-project-types/streetscape-elements/street-furniture-overview/bollards/",
+  },
+  "Referral" => {
+    "description" => "Referral Request"
+    "link" => "null",
+  },
+  "Shelters" => {
+    "description" => "Allows construction of a transit stop shelter.",
+    "link" => "null",
+  },
+  "SideSewer" => {
+    "description" => "Allows a licensed contractor to install a sewer running through a sidewalk or street.",
+    "link" => "https://www.sfpublicworks.org/services/permits/side-sewer",
   },
   "Sidewalk" => {
     "description" => "To fix missing, uneven, or cracked sidewalks.",
@@ -115,49 +135,49 @@ permit_type_metadata = {
     "description" => "Allows non-concrete sidewalk paving to be used.",
     "link" => "null",
   },
-  "StrtImprov" => {
-    "description" => "Required when building construction work affects a public sidewalk or street.",
-    "link" => "https://www.sfpublicworks.org/services/permits/street-improvement",
+  "StorCont" => {
+    "description" => "Allows a storage container to be temporarilty placed in the street or sidewalk. Container should not occupy more than the street's parking lane, nor completely block pedestrian sidewalk traffic.",
+    "link" => "https://www.sfpublicworks.org/services/permits/storage-container",
   },
   "StreetSpace" => {
     "description" => "Allows occupation of:\n- less than half the sidewalk\n- a street's parking lane\n- the front of one property",
     "link" => "https://www.sfpublicworks.org/services/permits/street-space",
   },
+  "StrtImprov" => {
+    "description" => "Required when building construction work affects a public sidewalk or street.",
+    "link" => "https://www.sfpublicworks.org/services/permits/street-improvement",
+  },
   "SurfaceFac" => {
     "description" => "Allows a metal cabinet to be installed on the sidewalk, for electric service, communications, traffic signals, or ticket vending machines.",
     "link" => "https://www.sfpublicworks.org/services/permits/surface-mounted-facility",
   },
+  "TableChair" => {
+    "description" => "Allows restaurants to provide outdoor seating on the sidewalk.",
+    "link" => "https://www.sfpublicworks.org/services/permits/cafe-tables-and-chairs",
+  },
   "TankAband" => {
     "description" => "null",
-    "link" => "null",
-  },
-  "TempOccup" => {
-    "description" => "Allows construction or street work in a public sidewalk or street. No excavation is allowed on this permit.",
-    "link" => "https://www.sfpublicworks.org/services/permits/temporary-occupancy",
-  },
-  "Shelters" => {
-    "description" => "Allows construction of a transit stop shelter.",
     "link" => "null",
   },
   "TankRemove" => {
     "description" => "Allows the removal of a storage tank from under the street. These tanks usually keep hazardous substances from contaminating the soil or water.",
     "link" => "https://www.sfpublicworks.org/services/permits/tank-removal",
   },
-  "Excavation" => {
-    "description" => "Allows digging into public streets or sidewalks.",
-    "link" => "https://www.sfpublicworks.org/services/permits/utility-excavation",
+  "TempOccup" => {
+    "description" => "Allows construction or street work in a public sidewalk or street. No excavation is allowed on this permit.",
+    "link" => "https://www.sfpublicworks.org/services/permits/temporary-occupancy",
   },
   "Vault" => {
     "description" => "Allows an electrical transformer vault to be placed on public property.",
     "link" => "https://www.sfpublicworks.org/services/permits/vault-transformer",
   },
-  "WirelessUPD" => {
-    "description" => "Allows wireless antennas and equipment to be changed or fixed.",
-    "link" => "null",
-  },
   "Wireless" => {
     "description" => "Allows wireless antennas and equipment to be installed on utility or light poles.",
     "link" => "https://www.sfpublicworks.org/services/permits/wireless-service-facilities",
+  },
+  "WirelessUPD" => {
+    "description" => "Allows wireless antennas and equipment to be changed or fixed.",
+    "link" => "null",
   },
 }
 
