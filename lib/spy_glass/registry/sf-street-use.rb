@@ -40,7 +40,7 @@ permit_type_metadata = {
     "link" => "https://www.sfpublicworks.org/services/permits/banners",
   },
   "Bicycle" => {
-    "description" => "Bicycle Rack"
+    "description" => "Bicycle Rack",
     "link" => "null",
   },
   "Boring" => {
@@ -64,7 +64,7 @@ permit_type_metadata = {
     "link" => "https://www.sfpublicworks.org/services/permits/display-merchandise",
   },
   "Emergency" => {
-    "description" => "Emergency Confirmation Number"
+    "description" => "Emergency Confirmation Number",
     "link" => "null",
   },
   "Excavation" => {
@@ -92,7 +92,7 @@ permit_type_metadata = {
     "link" => "https://www.sfpublicworks.org/services/permits/minor-encroachment-permit",
   },
   "MiscServ" => {
-    "description" => "Miscellaneous Services"
+    "description" => "Miscellaneous Services",
     "link" => "null",
   },
   "NightNoise" => {
@@ -100,7 +100,7 @@ permit_type_metadata = {
     "link" => "https://www.sfpublicworks.org/services/permits/night-noise",
   },
   "Other" => {
-    "description" => "Test Other"
+    "description" => "Test Other",
     "link" => "null",
   },
   "OverwideDr" => {
@@ -116,7 +116,7 @@ permit_type_metadata = {
     "link" => "https://www.sfbetterstreets.org/find-project-types/streetscape-elements/street-furniture-overview/bollards/",
   },
   "Referral" => {
-    "description" => "Referral Request"
+    "description" => "Referral Request",
     "link" => "null",
   },
   "Shelters" => {
@@ -178,7 +178,7 @@ permit_type_metadata = {
   "WirelessUPD" => {
     "description" => "Allows wireless antennas and equipment to be changed or fixed.",
     "link" => "null",
-  },
+  }
 }
 
 SpyGlass::Registry << SpyGlass::Client::Socrata.new(opts) do |collection|
